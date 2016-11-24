@@ -139,4 +139,4 @@ if __name__ == '__main__':
         alfred_error(e)
         sys.exit(-1)
 
-    alfred.write(alfred.xml(history_results(db, query, favicons=favicons), 1000))
+    alfred.write(alfred.xml(history_results(db, query, favicons=favicons), 100))
