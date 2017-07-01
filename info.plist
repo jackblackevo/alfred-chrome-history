@@ -8,6 +8,19 @@
 	<string>Internet</string>
 	<key>connections</key>
 	<dict>
+		<key>28DD6FE4-9B8F-404F-858E-31FB8159BDAF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4AB0D413-DD2A-42F2-9B4D-7A0319AA0645</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>3A9166FA-4417-49A1-BC11-0CB42FEE1514</key>
 		<array>
 			<dict>
@@ -88,6 +101,27 @@
 	<string>Google Chrome History</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>URL copied to clipboard</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>4AB0D413-DD2A-42F2-9B4D-7A0319AA0645</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -323,51 +357,58 @@ python chrome.py "${PROFILE}" "{query}"</string>
 		<key>28DD6FE4-9B8F-404F-858E-31FB8159BDAF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>700</integer>
+			<integer>330</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>40</integer>
 		</dict>
 		<key>3A9166FA-4417-49A1-BC11-0CB42FEE1514</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>70</integer>
 			<key>ypos</key>
-			<integer>200</integer>
+			<integer>230</integer>
+		</dict>
+		<key>4AB0D413-DD2A-42F2-9B4D-7A0319AA0645</key>
+		<dict>
+			<key>xpos</key>
+			<integer>570</integer>
+			<key>ypos</key>
+			<integer>40</integer>
 		</dict>
 		<key>9A1A68FC-B89A-4B7C-9FB8-E787B69ED8EB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>700</integer>
+			<integer>330</integer>
 			<key>ypos</key>
-			<integer>270</integer>
+			<integer>300</integer>
 		</dict>
 		<key>B8584F68-2E3A-4883-AE38-1F31EE5C2657</key>
 		<dict>
 			<key>xpos</key>
-			<integer>700</integer>
+			<integer>330</integer>
 			<key>ypos</key>
-			<integer>140</integer>
+			<integer>170</integer>
 		</dict>
 		<key>C0C97B37-3E11-4F40-9F90-97648CFE0914</key>
 		<dict>
 			<key>xpos</key>
-			<integer>700</integer>
+			<integer>330</integer>
 			<key>ypos</key>
-			<integer>400</integer>
+			<integer>430</integer>
 		</dict>
 		<key>CEE82D30-650D-43CD-A70E-377718F9235C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>70</integer>
 			<key>ypos</key>
-			<integer>330</integer>
+			<integer>360</integer>
 		</dict>
 		<key>F5EE6337-C93B-44AE-9DB3-C9C1C204D42F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
-			<key>ypos</key>
 			<integer>70</integer>
+			<key>ypos</key>
+			<integer>100</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
